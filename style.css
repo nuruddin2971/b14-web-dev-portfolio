@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+/* common-style */
+.common-btn {
+  background-color: #fd6e0a;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.outline-btn {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+
+/* nav-style */
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 12px 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.logo-r {
+  color: #fd6e0a;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+/* Hero section style */
+.hero-parent-root {
+  background-color: #fff8f3;
+}
+.hero-parent {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left-p-1 {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.hero-left h2 {
+  font-weight: bold;
+  font-size: 85px;
+}
+.hero-left-btn-parent {
+  margin-top: 16px;
+}
+/* .hero-right {
+  background-image: url("./images/header_bg.png");
+} */
+
+/* About section */
+.about-section {
+  /* border: 2px solid red; */
+  background-color: #fff8f3;
+  margin-top: 130px;
+  border-radius: 10px;
+}
+.about-section-title {
+  text-align: center;
+  padding: 120px 170px;
+}
+.about-section-title h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 24px;
+}
+.about-section-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.about-section-card p {
+  font-size: 24;
+}
+.about-section-card h4 {
+  font-size: 24;
+  font-weight: bold;
+}
+
+/* What I do section */
+.what-i-do-section {
+  margin-top: 130px;
+}
+.what-i-do-section-description {
+  text-align: center;
+  padding: 30px;
+}
+.what-i-do-section-description h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.what-i-do-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  
+}
+.what-i-do-item{
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.what-i-do-item img {
+  
+  max-width: 100%;
+}
+.what-i-do-items h3{
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
