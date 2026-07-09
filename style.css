@@ -189,9 +189,15 @@ ul li a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* My Amazing works */
 .my-amazing-parent {
   text-align: center;
   margin-top: 130px;
+}
+.my-amazing-parent h2 {
+  font-weight: bold;
+  font-size: 35px;
 }
 .gallery {
   margin-top: 50px;
@@ -226,4 +232,47 @@ ul li a {
 }
 .box-6 {
   grid-area: six;
+}
+/* footer */
+.footer-section {
+  background-color: #fff8f3;
+}
+
+.footer-items {
+  text-align: center;
+  margin-top: 130px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 130px 230px;
+}
+.left-footer,
+.right-footer {
+  text-align: left;
+}
+
+.left-footer h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.left-footer p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.right-footer h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+footer form input,
+footer form textarea {
+  border: none;
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
 }
