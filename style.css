@@ -234,7 +234,7 @@ ul li a {
   grid-area: six;
 }
 /* footer */
-.footer-section {
+/* .footer-section {
   background-color: #fff8f3;
 }
 
@@ -275,4 +275,95 @@ footer form textarea {
   display: block;
   width: 100%;
   margin-bottom: 8px;
+} */
+
+.footer-section {
+  margin-top: 130px;
+  background: linear-gradient(135deg, #fff8f3, #ffffff);
+  padding: 100px 0;
+}
+
+.footer-items {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 0 30px;
+}
+
+/* Left Side */
+
+.left-footer,
+.right-footer {
+  flex: 1;
+}
+
+.left-footer h2,
+.right-footer h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 25px;
+}
+
+.left-footer p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Social Icons */
+
+.left-footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.left-footer img:hover {
+  transform: translateY(-5px);
+}
+
+/* Form */
+
+.right-footer {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+footer form input,
+footer form textarea {
+  width: 90%;
+  border: 1px solid #ddd;
+  background: #fafafa;
+
+  padding: 15px 18px;
+  border-radius: 10px;
+
+  font-size: 16px;
+
+  margin-bottom: 15px;
+
+  outline: none;
+
+  transition: 0.3s ease;
+}
+
+footer form input:focus,
+footer form textarea:focus {
+  border-color: #fd6e0a;
+  background: white;
+
+  box-shadow: 0 0 0 3px rgba(253, 110, 10, 0.15);
+}
+
+footer form textarea {
+  resize: none;
 }
